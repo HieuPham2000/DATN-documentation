@@ -6,6 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  trailingSlash: false,
+
   title: 'HUST PVO',
   tagline: 'Organize your vocabulary in a personalized way',
   favicon: 'img/favicon.ico',
