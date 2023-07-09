@@ -12,13 +12,13 @@ You need to create an account to start using this webapp. HUST PVO requires user
 
 Go to [https://hustpvo.site](https://hustpvo.site) and click ```Create an account```, or go to [https://hustpvo.site/register](https://hustpvo.site/register).
 
-![Register page](./img/registerPage.png)
+![Register page](./img/registerPage.PNG)
 
 The application will give an error if the input is invalid such as: email already used, password malformed (password must be from 8-16 characters, contain at least 1 lowercase letter, 1 uppercase letter, 1 number, and 1 special character),...
 
 If the registration is successful, you will receive a message asking you to check your email to activate your account.
 
-![Check account confirmation email dialog](./img/registerCheckEmailDialog.png)
+![Check account confirmation email dialog](./img/registerCheckEmailDialog.PNG)
 
 You will receive an email similar to this. If you do not receive it, please check your spam folder. If you still don't see the email, please click ```Resend``` (you have to wait 2 minutes).
 

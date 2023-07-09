@@ -32,7 +32,7 @@ An example of linking concept and results when retrieving on HUST PVO:
 
 This is the main layout of HUST PVO:
 
-![Layout](./img/Layout.png)
+![Layout](./img/Layout.PNG)
 
 1. Main work area
 2. Sidebar: Dashboard, Concept, Example, Search, Tree

@@ -8,7 +8,7 @@ This section describes the **Concept** screen.
 
 ## Overview
 
-![Concept screen](./img/conceptLayout.png)
+![Concept screen](./img/conceptLayout.PNG)
 
 1. **Add a new concept** to the current dictionary.
 
@@ -56,7 +56,7 @@ HUST PVO provides an advanced configuration called **Soundex search**. By defaul
 
 If there aren't any concepts that match, you can instantly add the search string to a new concept by clicking ``Add`` (see image below).
 
-![Add concept when search](./img/addWhenSearchConcept.png)
+![Add concept when search](./img/addWhenSearchConcept.PNG)
 
 ## Establish links between concepts
 
@@ -67,7 +67,7 @@ After you have selected the child concept and the parent concept, you can establ
 :::
 
 
-![Select concept link](./img/selectLink.png)
+![Select concept link](./img/selectLink.PNG)
 
 After choosing the link type, you need to click ```Save``` to save the settings. The ```Save``` button is disabled by default and is only activated if the type of association between the two concepts changes.
 
@@ -77,7 +77,7 @@ You cannot create circular links. That is, if child concept A links to parent co
 
 :::
 
-![Circle link](./img/circleLink.png)
+![Circle link](./img/circleLink.PNG)
 
 If you click ```Change```, the old link from A to B will be deleted and the new link from B to A will be added.
 
@@ -85,7 +85,7 @@ If you click ```Change```, the old link from A to B will be deleted and the new 
 
 Right-click a concept in the search list to open the context menu.
 
-![Concept context menu](./img/contextMenu.png)
+![Concept context menu](./img/contextMenu.PNG)
 
 1. **Add example**: navigate to the example screen, and the selected concept is automatically displayed in the search box linked concept.
 2. **View tree**: navigate to the view tree, and display the tree structure of the selected concept.
