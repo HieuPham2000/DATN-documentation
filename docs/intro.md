@@ -2,46 +2,33 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **HUST PVO in less than 20 minutes**.
 
-## Getting Started
+## What is HUST PVO?
 
-Get started by **creating a new site**.
+**HUST PVO** is a **Personalized Vocabulary Organizer** web app. Access the application at: **[https://hustpvo.site](https://hustpvo.site)**
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+This software comes from **[Dr. Ho Le Vu's research](https://ttu-ir.tdl.org/handle/2346/10813)** on methods and software (named **PVO**) to support foreign language learners by **association mechanism**. 
+>The Personalized Vocabulary Organizer (PVO), a link-based learning system, helps L2 learners organize and recall their foreign vocabulary. PVO employs an association mechanism that lets learners build up their own lexical network by linking words semantically (Ho Le Vu, 2006)
 
-### What you'll need
+HUST PVO is developed from this idea, but is an independent product of Dr. Ho Le Vu's PVO software. HUST PVO is developed and used for learning purposes only, no source code from the original version of PVO software is referenced.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Motivation
 
-## Generate a new site
+One approach with great potential to help learners build effective vocabulary is the **link-based approach**. 
 
-Generate a new Docusaurus site using the **classic template**.
+Using associations between words is a way to organize items, making them easier to learn and recall. The reason is that the nature of words has relationships and links with each other. Psychologically, with a new word, learners often integrate it into the relationship with their existing vocabulary and semantic system. 
 
-The classic template will automatically be added to your project after you run the command:
+There have been many ideas about linked dictionaries, such as dictionaries of synonyms, dictionaries organized by fields and topics. One of them is [WordNet](https://wordnet.princeton.edu/) - a large English vocabulary database that allows users to semantically browse vocabulary. WordNet uses groups of synonyms (**synsets**) to represent lexical concepts. 
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+The limitation of the software and linked dictionaries mentioned above is **the degree of autonomy of learners** in building semantic networks. These systems all approach the **expert model**, that is, the lexical items and semantic associations have been pre-selected and the learners cannot change these associations. 
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+With PVO, the software is deployed in a non-expert model, promoting learners to self-develop and organize vocabulary. Learners have almost complete control over which words should be integrated into the system and establish semantic links between them. The feasibility and effectiveness of the software idea has been tested in [Dr. Ho Le Vu's research](https://ttu-ir.tdl.org/handle/2346/10813).
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Inheriting the advantages and overcoming the limitations, **HUST PVO** combines both **expert model** and **non-expert model**. Learners still have complete autonomy in building their vocabulary dictionary, but will have **additional help** from looking up existing dictionary sources. HUST PVO uses resources from the [Free Dictionary API](https://dictionaryapi.dev/), [Words API](https://www.wordsapi.com/) ([WordNet](https://wordnet.princeton.edu/) will be available in the future) as a reference source for users.
 
-## Start your site
+## Let's start
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Let's get started with HUST PVO tutorials.

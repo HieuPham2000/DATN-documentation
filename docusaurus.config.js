@@ -7,19 +7,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'HUST PVO',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Organize your vocabulary in a personalized way',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://hieupham2000.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/HUSTPVO-documentation/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'HUST', // Usually your GitHub org/user name.
-  projectName: 'HUST-PVO Documentation', // Usually your repo name.
+  organizationName: 'HieuPham2000', // Usually your GitHub org/user name.
+  projectName: 'HUSTPVO-documentation', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -53,6 +53,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{name: 'keywords', content: 'pvo, english, vocabulary, learning vocabulary'}],
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -69,8 +70,12 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/HieuPham2000/HUSTPVO-documentation',
             label: 'GitHub',
             position: 'right',
           },
@@ -89,19 +94,19 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Contact',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/me.pthieu',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Email',
+                href: 'mailto:pthieu0311@gmail.com',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/pthieu2000/',
               },
             ],
           },
@@ -114,12 +119,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/HieuPham2000',
+                href: 'https://github.com/HieuPham2000/HUSTPVO-documentation',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} HUST PVO. Built with Docusaurus.`,
+        copyright: `${new Date().getFullYear()} HUST PVO v1.0.0. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
