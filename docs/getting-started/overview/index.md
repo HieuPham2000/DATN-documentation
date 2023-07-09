@@ -26,13 +26,13 @@ Creating appropriate associations helps to increase vocabulary recall, increase 
 
 An example of linking concept and results when retrieving on HUST PVO:
 
-![Example graph](./img/Graph.PNG)
+![Example graph](./img/Graph.png)
 
 ## Features
 
 This is the main layout of HUST PVO:
 
-![Layout](./img/Layout.PNG)
+![Layout](./img/Layout.png)
 
 1. Main work area
 2. Sidebar: Dashboard, Concept, Example, Search, Tree

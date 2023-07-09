@@ -8,7 +8,7 @@ This section describes the **Concept** screen.
 
 ## Overview
 
-![Concept screen](./img/conceptLayout.PNG)
+![Concept screen](./img/conceptLayout.png)
 
 1. **Add a new concept** to the current dictionary.
 
@@ -24,7 +24,7 @@ This section describes the **Concept** screen.
 
 ## Add a new concept
 
-![Add concept dialog](./img/addConcept.PNG)
+![Add concept dialog](./img/addConcept.png)
 
 Enter the form, where the Concept field is required. In addition, concepts are not allowed to overlap in a dictionary.
 
@@ -52,11 +52,11 @@ The first matching concept will be **automatically selected**.
 HUST PVO provides an advanced configuration called **Soundex search**. By default this configuration is disabled. You can enable it at Account Settings. Details of this feature will be introduced later.
 :::
 
-![Child concept search](./img/searchChildConcept.PNG)
+![Child concept search](./img/searchChildConcept.png)
 
 If there aren't any concepts that match, you can instantly add the search string to a new concept by clicking ``Add`` (see image below).
 
-![Add concept when search](./img/addWhenSearchConcept.PNG)
+![Add concept when search](./img/addWhenSearchConcept.png)
 
 ## Establish links between concepts
 
@@ -67,7 +67,7 @@ After you have selected the child concept and the parent concept, you can establ
 :::
 
 
-![Select concept link](./img/selectLink.PNG)
+![Select concept link](./img/selectLink.png)
 
 After choosing the link type, you need to click ```Save``` to save the settings. The ```Save``` button is disabled by default and is only activated if the type of association between the two concepts changes.
 
@@ -77,7 +77,7 @@ You cannot create circular links. That is, if child concept A links to parent co
 
 :::
 
-![Circle link](./img/circleLink.PNG)
+![Circle link](./img/circleLink.png)
 
 If you click ```Change```, the old link from A to B will be deleted and the new link from B to A will be added.
 
@@ -85,7 +85,7 @@ If you click ```Change```, the old link from A to B will be deleted and the new 
 
 Right-click a concept in the search list to open the context menu.
 
-![Concept context menu](./img/contextMenu.PNG)
+![Concept context menu](./img/contextMenu.png)
 
 1. **Add example**: navigate to the example screen, and the selected concept is automatically displayed in the search box linked concept.
 2. **View tree**: navigate to the view tree, and display the tree structure of the selected concept.

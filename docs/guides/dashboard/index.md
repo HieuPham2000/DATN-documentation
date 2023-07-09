@@ -6,7 +6,7 @@ sidebar_position: 1
 
 This section describes the **Dashboard** screen.
 
-![Dashboard screen](./img/dashboardLayout.PNG)
+![Dashboard screen](./img/dashboardLayout.png)
 
 1. Number of concepts in the current dictionary.
 
