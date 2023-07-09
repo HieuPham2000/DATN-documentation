@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>HUST PVO Blog</title>
+        <link>https://hieupham2000.github.io/HUSTPVO-documentation/blog</link>
+        <description>HUST PVO Blog</description>
+        <lastBuildDate>Fri, 07 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://hieupham2000.github.io/HUSTPVO-documentation/blog/welcome</link>
+            <guid>https://hieupham2000.github.io/HUSTPVO-documentation/blog/welcome</guid>
+            <pubDate>Fri, 07 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hi everyone!]]></description>
+            <content:encoded><![CDATA[<p><strong>Hi everyone!</strong> </p><p>This is the first blog to welcome all users of HUST PVO. </p><p>Here you will find blogs, tips that people share about their experience using HUST PVO, as well as methods of learning foreign language vocabulary. </p><p><strong>Let's go!</strong></p>]]></content:encoded>
+            <category>hustpvo</category>
+            <category>hello</category>
+        </item>
+    </channel>
+</rss>

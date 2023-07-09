@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hieupham2000.github.io/HUSTPVO-documentation/blog</id>
+    <title>HUST PVO Blog</title>
+    <updated>2023-07-07T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://hieupham2000.github.io/HUSTPVO-documentation/blog"/>
+    <subtitle>HUST PVO Blog</subtitle>
+    <icon>https://hieupham2000.github.io/HUSTPVO-documentation/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://hieupham2000.github.io/HUSTPVO-documentation/blog/welcome</id>
+        <link href="https://hieupham2000.github.io/HUSTPVO-documentation/blog/welcome"/>
+        <updated>2023-07-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi everyone!]]></summary>
+        <content type="html"><![CDATA[<p><strong>Hi everyone!</strong> </p><p>This is the first blog to welcome all users of HUST PVO. </p><p>Here you will find blogs, tips that people share about their experience using HUST PVO, as well as methods of learning foreign language vocabulary. </p><p><strong>Let's go!</strong></p>]]></content>
+        <author>
+            <name>Hieu Pham</name>
+            <uri>https://github.com/hieupham2000</uri>
+        </author>
+        <category label="hustpvo" term="hustpvo"/>
+        <category label="hello" term="hello"/>
+    </entry>
+</feed>
