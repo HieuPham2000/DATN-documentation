@@ -26,7 +26,7 @@ Creating appropriate associations helps to increase vocabulary recall, increase 
 
 An example of linking concept and results when retrieving on HUST PVO:
 
-![Example graph](./img/Graph.PNG)
+![Example graph](./img/Graph.png)
 
 ## Features
 

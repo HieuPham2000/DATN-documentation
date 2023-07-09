@@ -24,7 +24,7 @@ This section describes the **Concept** screen.
 
 ## Add a new concept
 
-![Add concept dialog](./img/addConcept.PNG)
+![Add concept dialog](./img/addConcept.png)
 
 Enter the form, where the Concept field is required. In addition, concepts are not allowed to overlap in a dictionary.
 
@@ -52,7 +52,7 @@ The first matching concept will be **automatically selected**.
 HUST PVO provides an advanced configuration called **Soundex search**. By default this configuration is disabled. You can enable it at Account Settings. Details of this feature will be introduced later.
 :::
 
-![Child concept search](./img/searchChildConcept.PNG)
+![Child concept search](./img/searchChildConcept.png)
 
 If there aren't any concepts that match, you can instantly add the search string to a new concept by clicking ``Add`` (see image below).
 
