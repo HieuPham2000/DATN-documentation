@@ -6,7 +6,7 @@ sidebar_position: 3
 
 This section describes the **View all concepts** feature.
 
-At any screen, you can click the ```View all concepts button``` to view all the concepts stored in the current dictionary. This button is located in the bottom left corner of the screen by default. You can drag and drop this button to another location.
+At any screen, you can click the ```View all concepts``` button to view all the concepts stored in the current dictionary. This button is located in the bottom left corner of the screen by default. You can drag and drop this button to another location.
 
 ![Button](./img/button.png)
 
