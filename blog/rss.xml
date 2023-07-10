@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>HUST PVO Blog</title>
+        <title>HUST PVO Documentation Blog</title>
         <link>https://hieupham2000.github.io/HUSTPVO-documentation/blog</link>
-        <description>HUST PVO Blog</description>
+        <description>HUST PVO Documentation Blog</description>
         <lastBuildDate>Fri, 07 Jul 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
