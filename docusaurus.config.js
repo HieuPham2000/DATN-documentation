@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   trailingSlash: false,
 
-  title: 'HUST PVO',
+  title: 'HUST PVO Documentation',
   tagline: 'Organize your vocabulary in a personalized way',
   favicon: 'img/favicon.ico',
 
@@ -57,9 +57,9 @@ const config = {
     ({
       metadata: [{name: 'keywords', content: 'pvo, english, vocabulary, learning vocabulary'}],
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.png',
       navbar: {
-        title: 'HUST PVO',
+        title: 'HUST PVO Documentation',
         logo: {
           alt: 'HUST PVO Logo',
           src: 'img/logo.png',
