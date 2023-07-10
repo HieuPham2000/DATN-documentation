@@ -67,3 +67,6 @@ Before saving, you can choose to check or uncheck the ```Re-use parameters``` ch
 
 If the ```Re-use parameters``` checkbox is checked, the parameters you have set: tone, mode, register, nuance, dialect and notes will be preserved when the form is reset. Otherwise, all parameters will be reset to default.
 
+## Undeciced example
+
+An example that is not associated with any concept is classified as **Undecided example**. You can search for these examples using the ```Only search undecided examples``` feature in the Search screen.

@@ -1,49 +1,82 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Search
 
-This section introduces **the core concepts and features** that HUST PVO provides.
+This section describes the **Search** screen.
 
-## Core concepts
+This screen has 2 tabs: **Search Example** and **Search Concept Association**. 
 
-There are 3 core concepts of HUST PVO: **Concept**, **Example** and **Dictionary**.
+:::tip TIP
+The first time you access this screen, the default **Search Example** tab is opened. From next time, the last opened tab will be opened.
+:::
 
-1. **Concept** here is a word, a phrase or a group of words, used to represent a certain meaning. For example, a single word like *free*, *freedom*, *hero*,... a phrase like *look after*,... a group of words like *reason-cause*,...
+## Search Example
 
-2. **Example** here is a phrase, a sentence or a paragraph describing how to use vocabulary with a specific meaning. **Example** will have corresponding ***tone***, ***mode***, ***register***, ***nuance*** and ***dialect*** properties to determine the context to use. For example, *shake a leg* is an **example** where the tone is *informal*, nuance is *old-fashioned*, and the mode is *spoken*.
+### Search Criteria
 
-3. **Dictionary** is where **concepts** and **examples** are stored. One user account can create multiple dictionaries for different purposes. For example, user A creates 1 dictionary to store communication vocabulary and another dictionary for IELTS exam preparation.
+![Search example param](./img/searchExampleParam.png)
 
-HUST PVO is a link-based learning system that helps learners learn vocabulary by association mechanism. Therefore, HUST PVO allows users to create two types of semantic association:
+You can use 1 or more criteria to search for examples stored in the dictionary.
 
-1. Link between concept (*Association*, *Type of*. Default is *No link*).
+With the **Keyword** field, you can enter a few characters or keywords to find a match with the example content or the example notes.
 
-2. Link between example and concept (*Idiom*, *Nominal*, *Agent*, *Patient*, *Action*, *Described by*, *Describing*, *Other phrase*. Default is *No link*).
+With combobox **Tone**, **Mode**, **Register**, **Nuance**, **Dialect**, default value is all. You can change to find examples with corresponding attribute values.
 
-Creating appropriate associations helps to increase vocabulary recall, increase efficiency in learning and using vocabulary.
+In the **Linked concept** multiselect box, you can select one or more concepts to find examples associated with those concepts. If you leave this box blank, all examples will be searched.
 
-An example of linking concept and results when retrieving on HUST PVO:
+Checkbox ```Only search undecided examples``` helps you find **Undecided examples**. If this checkbox is checked, the ```Linked concept``` box is disabled and the linked concept values are not used for search. Otherwise, if the ```Linked concept``` box is not empty, the checkbox will be disabled (because an example that links to at least 1 concept cannot be an Undecided example). By default, the checkbox is unchecked.
 
+When you click ```Search```, the app will perform the search. If checkbox ```Save last search parameters``` is checked (by default, this checkbox is checked), the search parameters will be saved for subsequent searches.
 
-## Features
+To restore the default set of search parameters, click the ```Reset``` button.
 
-This is the main layout of HUST PVO:
+### Search Results
 
+The example search results show up as a list. If the example content is too long, only the first highlighted part will be displayed (with a few words before and after).
 
-1. Main work area
-2. Sidebar: Dashboard, Concept, Example, Search, Tree
-3. Dictionaries
-4. View all concepts in current dictionary
-5. Account settings
-6. Toggle dark mode
-7. Help & FAQs
-8. Utility: Translate, Text to speech, Look up 
+![Search example results](./img/searchExampleResult.png)
 
-## What's next?
+Click an example in the list, you will see the specific information of that example in the ```Selected example``` section.
 
-The next section will guide you through each feature of HUST PVO.
+![Selected example](./img/selectedExample.png)
 
+:::tip TIP
+Only attribute values other than Neutral are explicitly listed.
+:::
 
+:::tip TIP
+Hover into a concept in the ```Linked concept``` section you will see the type of established link.
+:::
+
+### Edit and delete example
+
+Click the pencil icon at an example in the list of search results, the Edit and Delete example dialog box will appear.
+
+## Search Concept Association
+
+On this tab, you can select 1 to 10 concepts to search for concepts that link to the selected concepts.
+
+:::tip Tip
+In a real-life situation, this feature helps you to find a concept without remembering it exactly, but only remembering a few concepts related to the concept you want to find.
+:::
+
+The search results returned are a list of concepts, sorted in order of relevance. HUST PVO uses an algorithm to compute activation values on a semantically linked network. This algorithm is referenced from the research of Dr. Ho Le Vu [(Ho Le Vu, 2006, pp. 24-30)](https://ttu-ir.tdl.org/handle/2346/10813).
+
+![Search concept association](./img/searchConceptAssociation.png)
+
+In addition to the list of results, HUST PVO also provides users with an intuitive view through the graph.
+
+![Concept association graph](./img/graph.png)
+
+:::tip TIP
+You can zoom out, zoom in, drag and drop the graph. You can also drag and drop nodes.
+:::
+
+:::tip TIP
+When hovering a vertex on the graph, you will see the adjacent edges and adjacent vertices highlighted. Similar when you hover any edge on the graph.
+:::
+
+![Hover graph](./img/hoverGraphNodeEdge.png)
 
