@@ -10,7 +10,7 @@ This section will guide you to register an account and log in to HUST PVO. There
 
 You need to create an account to start using this webapp. HUST PVO requires users to use **email** to create an account.
 
-Go to [https://www.hustpvo.xyz](https://www.hustpvo.xyz) and click ```Create an account```, or go to [https://www.hustpvo.xyz/register](https://www.hustpvo.xyz/register).
+Go to https://www.hustpvo.xyz and click ```Create an account```, or go to https://www.hustpvo.xyz/register.
 
 ![Register page](./img/registerPage.png)
 
@@ -30,7 +30,7 @@ Click ```Verify account``` to activate your account.
 
 ## Login
 
-Go to [https://hustpvo.site](https://hustpvo.site) and log in.
+Go to https://www.hustpvo.xyz and log in.
 
 If you have not activated your account, you will receive an activation request. Click ```Click here``` to receive an activation email.
 
