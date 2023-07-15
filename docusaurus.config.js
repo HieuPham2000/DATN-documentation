@@ -55,7 +55,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      metadata: [{name: 'keywords', content: 'pvo, english, vocabulary, learning vocabulary'}],
+      metadata: [{name: 'keywords', content: 'hust pvo, hust, pvo, english, vocabulary, learning vocabulary, learning method'}],
       // Replace with your project's social card
       image: 'img/social-card.png',
       navbar: {
