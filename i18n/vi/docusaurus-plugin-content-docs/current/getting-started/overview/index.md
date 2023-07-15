@@ -2,50 +2,50 @@
 sidebar_position: 2
 ---
 
-# Overview
+# Tổng quan
 
-This section introduces **the core concepts and features** that HUST PVO provides.
+Phần này giới thiệu **các khái niệm nền tảng và tính năng chính** của HUST PVO.
 
-## Core concepts
+## Khái niệm nền tảng
 
-There are 3 core concepts of HUST PVO: **Concept**, **Example** and **Dictionary**.
+Có 3 khái niệm nền tảng trong HUST PVO: **Concept**, **Example** và **Dictionary**.
 
-1. **Concept** here is a word, a phrase or a group of words, used to represent a certain meaning. For example, a single word like *free*, *freedom*, *hero*,... a phrase like *look after*,... a group of words like *reason-cause*,...
+1. **Concept** (Từ, khái niệm) ở đây là 1 từ, 1 cụm từ hoặc 1 nhóm các từ, được sử dụng để đại diện 1 ý nghĩa nhất định. Ví dụ, 1 từ đơn như *free*, *freedom*, *hero*,... 1 cụm từ như *look after*,... hay 1 nhóm từ như *reason-cause*,...
 
-2. **Example** here is a phrase, a sentence or a paragraph describing how to use vocabulary with a specific meaning. **Example** will have corresponding ***tone***, ***mode***, ***register***, ***nuance*** and ***dialect*** properties to determine the context to use. For example, *shake a leg* is an **example** where the tone is *informal*, nuance is *old-fashioned*, and the mode is *spoken*.
+2. **Example** (Ví dụ) đây là 1 cụm từ, 1 câu hoặc 1 đoạn mô tả cách sử dụng từ vựng với một ý nghĩa cụ thể. **Example** sẽ có các thuộc tính ***tone***, ***mode***, ***register***, ***nuance*** và ***dialect*** tương ứng để xác định ngữ cảnh để sử dụng. Ví dụ: *shake a leg* là một **example** trong đó tone là *informal*, nuance là *old-fashioned* và mode là *spoken*.
 
-3. **Dictionary** is where **concepts** and **examples** are stored. One user account can create multiple dictionaries for different purposes. For example, user A creates 1 dictionary to store communication vocabulary and another dictionary for IELTS exam preparation.
+3. **Dictionary** (Từ điển) là nơi lưu trữ **concept** và **example**. Một tài khoản người dùng có thể tạo nhiều từ điển cho các mục đích khác nhau. Ví dụ người dùng A tạo 1 từ điển lưu trữ từ vựng giao tiếp và 1 từ điển luyện thi IELTS.
 
-HUST PVO is a link-based learning system that helps learners learn vocabulary by association mechanism. Therefore, HUST PVO allows users to create two types of semantic association:
+HUST PVO là hệ thống học tập dựa trên liên kết, giúp người học học từ vựng theo cơ chế liên kết. Do đó, HUST PVO cho phép người dùng tạo hai loại liên kết ngữ nghĩa:
 
-1. Link between concept (*Association*, *Type of*. Default is *No link*).
+1. Liên kết giữa các concept (*Association*, *Type of*. Mặc định là *No link*).
 
-2. Link between example and concept (*Idiom*, *Nominal*, *Agent*, *Patient*, *Action*, *Described by*, *Describing*, *Other phrase*. Default is *No link*).
+2. Liên kết example và concept (*Idiom*, *Nominal*, *Agent*, *Patient*, *Action*, *Described by*, *Describing*, *Other phrase*. Mặc định *No link*).
 
-Creating appropriate associations helps to increase vocabulary recall, increase efficiency in learning and using vocabulary.
+Tạo liên tưởng, liên kết thích hợp giúp tăng khả năng nhớ từ, tăng hiệu quả học và sử dụng từ.
 
-An example of linking concept and results when retrieving on HUST PVO:
+Một ví dụ về liên kết concept và kết quả khi truy xuất trên HUST PVO:
 
 ![Example graph](./img/Graph.png)
 
-## Features
+## Chức năng
 
-This is the main layout of HUST PVO:
+Đây là bố cục chính của HUST PVO:
 
 ![Layout](./img/Layout.png)
 
-1. Main work area
+1. Khu vực làm việc chính
 2. Sidebar: Dashboard, Concept, Example, Search, Tree
-3. Dictionaries
-4. View all concepts in current dictionary
-5. Account settings
-6. Toggle dark mode
-7. Help & FAQs
-8. Utility: Translate, Text to speech, Look up 
+3. Quản lý từ điển
+4. Xem tất cả concept trong từ điển hiện tại
+5. Thiết lập tài khoản
+6. Bật/tắt Chế độ tối (Dark mode)
+7. Trợ giúp
+8. Tính năng tiện ích: Dịch (Translate), Chuyển văn bản thành giọng nói (Text to speech), Tra cứu nguồn tham khảo (Look up) 
 
-## What's next?
+## Điều gì tiếp theo?
 
-The next section will guide you through each feature of HUST PVO.
+Phần tiếp theo sẽ hướng dẫn bạn từng tính năng của HUST PVO.
 
 
 

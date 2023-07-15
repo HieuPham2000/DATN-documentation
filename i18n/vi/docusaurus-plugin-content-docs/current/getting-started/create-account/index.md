@@ -2,57 +2,58 @@
 sidebar_position: 1
 ---
 
-# Create Account
+# Tạo tài khoản
 
-This section will guide you to register an account and log in to HUST PVO. There are also instructions on what to do when you forget your password.
+Phần này sẽ hướng dẫn bạn đăng ký tài khoản và đăng nhập vào HUST PVO. Ngoài ra còn có hướng dẫn khi bạn quên mật khẩu.
 
-## Register an account
+## Đăng ký tài khoản
 
-You need to create an account to start using this webapp. HUST PVO requires users to use **email** to create an account.
+Bạn cần tạo một tài khoản để bắt đầu sử dụng. HUST PVO yêu cầu người dùng sử dụng **email** để tạo tài khoản.
 
-Go to [https://www.hustpvo.xyz](https://www.hustpvo.xyz) and click ```Create an account```, or go to [https://www.hustpvo.xyz/register](https://www.hustpvo.xyz/register).
+Truy cập https://www.hustpvo.xyz và nhấn ```Create an account```, hoặc truy cập https://www.hustpvo.xyz/register.
 
 ![Register page](./img/registerPage.png)
 
-The application will give an error if the input is invalid such as: email already used, password malformed (password must be from 8-16 characters, contain at least 1 lowercase letter, 1 uppercase letter, 1 number, and 1 special character),...
+Ứng dụng sẽ báo lỗi nếu thông tin nhập không hợp lệ như: email đã được sử dụng, mật khẩu không đúng định dạng (mật khẩu phải từ 8-16 ký tự, chứa ít nhất 1 chữ thường, 1 chữ in hoa, 1 số và 1 ký tự đặc biệt), ...
 
-If the registration is successful, you will receive a message asking you to check your email to activate your account.
+Nếu đăng ký thành công, bạn sẽ nhận được thông báo yêu cầu kiểm tra email để kích hoạt tài khoản.
 
 ![Check account confirmation email dialog](./img/registerCheckEmailDialog.png)
 
-You will receive an email similar to this. If you do not receive it, please check your spam folder. If you still don't see the email, please click ```Resend``` (you have to wait 2 minutes).
+Bạn sẽ nhận được một email tương tự như bên dưới. Nếu bạn không nhận được, vui lòng kiểm tra hòm thư rác. Nếu bạn vẫn không thấy email, vui lòng chọn ```Resend``` (bạn phải đợi 2 phút trước khi yêu cầu gửi lại email).
 
 ![Account confirmation email](./img/accountConfirmationEmail.png)
 
-Click ```Verify account``` to activate your account.
+Chọn ```Verify account``` để kích hoạt tài khoản của bạn.
 
 ![Activate account result](./img/activateAccountResult.png)
 
-## Login
+## Đăng nhập
 
-Go to [https://hustpvo.site](https://hustpvo.site) and log in.
+Go to https://www.hustpvo.xyz và đăng nhập.
 
-If you have not activated your account, you will receive an activation request. Click ```Click here``` to receive an activation email.
+Nếu bạn chưa kích hoạt tài khoản, bạn sẽ nhận được yêu cầu kích hoạt. Chọn ```Click here``` để nhận email kích hoạt.
 
 ![Login unactivated account](./img/loginUnactivatedAccount.png)
 
-After successful login you will be redirected to Dashboard page.
+Sau khi đăng nhập thành công, bạn sẽ được điều hướng đến màn hình Dashboard.
 
 ![Login success](./img/loginSuccessToDashboard.png)
 
-:::tip Tip
-If you are entering HUST PVO for the first time, you will have a **Dictionary** named ***My PVO*** available. From the following logins, the last accessed dictionary will be open by default.
+:::tip
+Nếu bạn truy cập HUST PVO lần đầu tiên, bạn sẽ có sẵn một từ điển (**Dictionary**) có tên ***My PVO***. Từ những lần đăng nhập sau, mặc định, từ điển truy cập cuối sẽ được mở.
 :::
-## Forgot password
 
-If you forgot your password, enter your email and click ```Send request```.
+## Quên mật khẩu
+
+Nếu bạn quên mật khẩu, nhập email và chọn ```Send request```.
 
 ![Forgot password](./img/forgotPassword.png)
 
-You will receive an email similar to this. Click ```Reset password```.
+Bạn sẽ nhận được email tương tự nhue bên dưới. Chọn ```Reset password```.
 
 ![Reset password email](./img/resetPasswordEmail.png)
 
-## What's next?
+## Điều gì tiếp theo?
 
-The next section will give you an overview of HUST PVO.
+Phần tới sẽ cho bạn cái nhìn tổng quan về HUST PVO.

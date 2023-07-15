@@ -4,10 +4,10 @@ title: Welcome
 authors: [pthieu]
 tags: [hustpvo, hello]
 ---
-**Hi everyone!** 
+**Chào mọi người!** 
 
-This is the first blog to welcome all users of HUST PVO. 
+Đây là blog đầu tiên để chào mừng tất cả người dùng của HUST PVO.
 
-Here you will find blogs, tips that people share about their experience using HUST PVO, as well as methods of learning foreign language vocabulary. 
+Tại đây, bạn sẽ tìm thấy các blog, các mẹo mà mọi người chia sẻ về trải nghiệm của họ khi sử dụng HUST PVO nói riêng, và các phương pháp học từ vựng ngoại ngữ nói chung.
 
-**Let's go!**
+**Hãy bắt đầu nào!**

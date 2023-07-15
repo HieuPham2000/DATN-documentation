@@ -269,5 +269,32 @@
   "theme.tags.tagsPageTitle": {
     "message": "Thẻ",
     "description": "The title of the tag list page"
+  },
+  "homepage.tagline.text": {
+    "message": "Tổ chức từ vựng của bạn theo cách cá nhân hóa"
+  },
+  "homepage.try.linkLabel": {
+    "message": "Trải nghiệm ngay 💪"
+  },
+  "homepage.tutorial.linkLabel": {
+    "message": "Hướng dẫn sử dụng - 20 phút ⏱️"
+  },
+  "homepageFeatures.featureList.freeToUse.title": {
+    "message": "Sử dụng miễn phí"
+  },
+  "homepageFeatures.featureList.easyToUse.title": {
+    "message": "Dễ sử dụng"
+  },
+  "homepageFeatures.featureList.manyDevices.title": {
+    "message": "Tương thích nhiều loại thiết bị"
+  },
+  "homepageFeatures.featureList.freeToUse.content": {
+    "message": "HUST PVO được xây dựng chỉ dành cho mục đích học tập nên mọi người đều có thể sử dụng miễn phí."
+  },
+  "homepageFeatures.featureList.easyToUse.content": {
+    "message": "HUST PVO được thiết kế với giao diện thân thiện, các chức năng dễ học, dễ sử dụng."
+  },
+  "homepageFeatures.featureList.manyDevices.content": {
+    "message": "HUST PVO là một Progressive Web App có thể sử dụng trên nhiều loại thiết bị như laptop, tablet, smartphone..."
   }
 }
