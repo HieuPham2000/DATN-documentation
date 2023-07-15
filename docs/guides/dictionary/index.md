@@ -132,7 +132,7 @@ The result number of successfully imported records will be displayed on the scre
 
 ### Export data
 
-Click ```Import``` in the menu to open the Export Options dialog.
+Click ```Export``` in the menu to open the Export Options dialog.
 
 Click ```Download``` to download an excel file containing the exported data.
 
@@ -150,7 +150,7 @@ You need to select a destination dictionary.
 
 Suppose the source dictionary is A, the destination dictionary is B. The data from A including concepts, examples, concept - concept associations, example - concept associations will be copied to dictionary B. These data will be merged with the data already in B. 
 
-For example, A contains concept ***a1*** associated with concept ***a2***, B contains concept ***a1*** associated with concept ***b2***, B does not contain concept ***a1***. After transferring data from A to B, B contains concept ***a1*** associated with concept ***a2*** and concept ***b2***.
+For example, A contains concept ***a1*** associated with concept ***a2***, B contains concept ***a1*** associated with concept ***b2***, B does not contain concept ***a2***. After transferring data from A to B, B contains concept ***a1*** associated with concept ***a2*** and concept ***b2***.
 
 HUST PVO allows you to choose whether to delete the destination dictionary data before receiving the data transferred from the source dictionary.
 

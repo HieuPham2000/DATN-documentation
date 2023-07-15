@@ -4,170 +4,164 @@ sidebar_position: 7
 
 # Dictionary
 
-This section describes the **My Dictionaries** screen. This feature allows you to manage your vocabulary dictionaries.
+Phần này mô tả màn hình **My Dictionaries**. Tính năng này cho phép bạn quản lý các từ điển từ vựng của mình.
 
-Click the ```Current dictionary``` area to open the **My Dictionaries** screen.
+Click ```Current dictionary``` để mở màn hình **My Dictionaries**.
 
 ![button dictionary](./img/btnDictionary1.png)
 
-If you have collapsed the sidebar, you can click the ```Dictionary``` button in the right menu bar, or click the ```Current dictionary``` area in the header bar.
+Nếu bạn thu gọn sidebar, bạn có thể click nút ```Dictionary``` ở thanh menu bên trái, hoặc click ```Current dictionary``` ở thanh header.
 
 ![button dictionary when collapse sidebar](./img/btnDictionary2.png)
 
-## List of dictionaries
+## Danh sách từ điển
 
-Each dictionary in the list is displayed with its name and last accessed time.
+Mỗi từ điển trong danh sách được hiển thị với tên và thời điểm truy cập cuối.
 
 ![list dictionary](./img/listDictionary.png)
 
-By default, the list is sorted by when it was last accessed (new to old). Alternatively, you can choose to sort by dictionary name.
+Mặc định, danh sách được sắp xếp theo thời điểm truy cập cuối (từ mới đến cũ). Ngoài ra, bạn có thể chọn sắp xếp theo tên từ điển.
 
-## Create a new dictionary
+## Tạo từ điển mới
 
-By default, HUST PVO has created a dictionary for you called *PVO*. You can create more dictionaries depending on your personal needs.
+Mặc định, HUST PVO đã tạo cho bạn một từ điển có tên là *PVO*. Bạn có thể tạo thêm từ điển tùy theo nhu cầu cá nhân.
 
-Click the ```Create``` button to open the ```Create Dictionary``` dialog box.
+Click ```Create``` để mở hộp thoại ```Create Dictionary```.
 
 ![Create Dictionary dialog](./img/createDictionary.png)
 
-The ```Dictionary name``` is a required field. You cannot create 2 dictionaries with the same name.
+```Dictionary name``` là trường bắt buộc. Ngoài ra, bạn không thể tạo 2 từ điển trùng tên.
 
-In combobox ```Clone Data From```, you can select a source dictionary to **copy data** from to the new dictionary.
+Tại combobox ```Clone Data From```, bạn có thể chọn 1 từ điển nguồn để **sao chép dữ liệu** của từ điển đó sang từ điển mới.
 
-## Actions with dictionary
+## Hành động khác
 
-At any dictionary item, click the icon in the top right corner to open the menu.
+Tại bất kỳ mục từ điển nào, hãy nhấp vào icon ở góc trên cùng bên phải để mở menu.
 
 ![Context menu](./img/dictionaryContextMenu.png)
 
-1. Load: Access to dictionary to use.
-2. Edit: Edit dictionary name.
-3. Import: Import data from excel into dictionary.
-4. Export: Export dictionary data to excel file.
-5. Transfer: Copy the data of this dictionary, transfer and merge the existing data of another dictionary.
-6. Delete: Clear data or delete dictionary.
+1. Load: Truy cập vào từ điển để sử dụng.
+2. Edit: Sửa tên từ điển.
+3. Import: Nhập khẩu dữ liệu từ excel vào từ điển.
+4. Export: Xuất dữ liệu từ điển ra file excel.
+5. Transfer: Sao chép dữ liệu của từ điển này, chuyển và gộp vào dữ liệu đã có của từ điển khác.
+6. Delete: Xóa dữ liệu hoặc xóa từ điển.
 
-### Load dictionary
+### Load
 
-Click ```Load``` in the menu, or double-click a dictionary item to open it as Current dictionary.
+Click ```Load``` tại menu, hoặc double-click 1 mục từ điển. Từ điển đó sẽ trở thành Current dictionary.
 
-### Edit dictionary
+### Edit
 
-Click ```Edit``` in the menu to open the dialog box. 
-Enter the new dictionary name (the name cannot be left blank and cannot be the same as the name of the existing dictionary).
+Click ```Edit``` tại menu để mở hộp thoại.
+Nhập tên từ điển mới (tên không được để trống và không được trùng với tên từ điển đã có).
 
-### Import data
+### Import
 
-Click ```Import``` in the menu to open the Import screen. The Import process consists of 3 steps.
+Click ```Import``` tại menu để mở màn hình Import. Quá trình nhập khẩu gồm 3 bước.
 
-:::danger Note
-If the import is successful, all existing data of the dictionary will be deleted.
+:::danger
+Nếu nhập khẩu thành công, tất cả dữ liệu hiện có của từ điển sẽ bị xóa.
 :::
 
-#### Step 1 - Select import file
+#### Bước 1 - Chọn file nhập khẩu
 
 ![Import step 1](./img/importStep1.png)
 
-1. The name of the dictionary you are working with.
-2. Current step.
-3. Number of valid and invalid records.
-4. Download error file.
-5. Description table of invalid records.
-6. Go back to step 1.
-7. Go to next step.
+1. Tên của từ điển bạn đang làm việc.
+2. Bước hiện tại.
+3. Nút tải xuống mẫu nhập khẩu.
+4. Vùng tải tệp lên.
+5. Chuyển sang bước tiếp theo.
 
-The data in the imported file will be checked by HUST PVO for validity.
+Để nhập khẩu, bạn cần **tải xuống tệp mẫu nhập khẩu do HUST PVO cung cấp** và cho dữ liệu vào tệp. Hoặc bạn có thể sử dụng **tệp dữ liệu đã xuất khẩu bằng tính năng Export của HUST PVO**.
 
-If there are any invalid records, HUST PVO displays a description on the table, and allows the user to download the error file.
-
-
-
-To import, you need to **download the import template file provided by HUST PVO** and put the data in the file. Or you can use an **exported data file using HUST PVO's Export feature**.
-
-:::danger Note
-If you **do not** use the excel file that HUST PVO provides, we cannot process its data. You will get the error message: *"Invalid file upload"* when you proceed to step 2.
+:::danger
+Nếu bạn **không** sử dụng tệp excel mà HUST PVO cung cấp, chúng tôi không thể xử lý dữ liệu của tệp đó. Bạn sẽ nhận được thông báo lỗi: *"Invalid file upload"* khi bạn chuyển sang bước 2.
 :::
 
-HUST PVO provides an import template file in excel format. This file has a built-in structure to help you import data quickly, as well as so that HUST PVO can easily handle when you import.
+HUST PVO cung cấp tệp mẫu nhập khẩu ở định dạng excel. File này đã dựng sẵn cấu trúc giúp bạn nhập dữ liệu nhanh chóng, cũng như để HUST PVO dễ dàng xử lý khi bạn nhập khẩu.
 
 ![Template excel](./img/templateExcel.png)
 
-The image below is an example of data entry in the import template file
+Hình ảnh dưới đây là một ví dụ về nhập dữ liệu trong tệp mẫu nhập khẩu:
 
 ![Type data in template excel](./img/dataTemplateExcel.png)
 
-HUST PVO only accepts files in excel format, less than 5.2 MB in size and must be a file provided by HUST PVO.
+HUST PVO chỉ chấp nhận các tệp có định dạng excel, dung lượng dưới 5,2 MB và phải là tệp do HUST PVO cung cấp.
 
 ![Upload file](./img/uploadTemplateFile.png)
 
-Click ```Next``` to go to step 2.
+Click ```Next``` để chuyển sang bước 2.
 
-#### Step 2 - Check import data
+#### Bước 2 - Kiểm tra dữ liệu
 
 ![Import step 2](./img/importStep2.png)
 
-1. The name of the dictionary you are working with.
-2. Current step.
-3. Import template download button.
-4. File upload area.
-5. Go to next step.
+1. Tên của từ điển bạn đang thao tác.
+2. Bước hiện tại.
+3. Số lượng bản ghi hợp lệ và không hợp lệ.
+4. Tải xuống tệp lỗi.
+5. Bảng mô tả bản ghi không hợp lệ.
+6. Quay lại bước 1.
+7. Chuyển sang bước tiếp theo.
 
-If there are any invalid records, HUST PVO displays a description on the table, and allows the user to download the error file.
+Nếu có bất kỳ bản ghi nào không hợp lệ, HUST PVO sẽ hiển thị mô tả trên bảng, đồng thời cho phép người dùng tải xuống tệp lỗi.
 
-The image below is an example of an error file. Error rows will be highlighted in red and accompanied by a description of the error in the last column.
+Hình ảnh dưới đây là ví dụ về một tệp lỗi. Các dòng lỗi sẽ được đánh dấu màu đỏ, kèm theo mô tả lỗi ở cột cuối cùng.
 
 ![Error file](./img/errorFile.png)
 
-:::tip Tip
-You can fix the error file, and use the same file to import again (No need to change the color format of the error row or delete the error description in the last column).
+:::tip
+Bạn có thể sửa tệp lỗi và sử dụng chính tệp đó để nhập khẩu lại (Không cần thay đổi định dạng màu chữ của dòng lỗi, không cần xóa mô tả lỗi ở cột cuối cùng).
 :::
 
-Click ```Next``` to import.
+Click ```Next``` để thực hiện nhập khẩu.
 
-If the dictionary you are working on has data, a message dialog box will appear asking you to confirm. Click ```Accept continue``` to delete the old data and import the new data.
+Nếu từ điển bạn đang làm việc có dữ liệu, một hộp thoại thông báo sẽ xuất hiện yêu cầu bạn xác nhận. Click ```Accept continue``` để xóa dữ liệu cũ và nhập khẩu dữ liệu mới.
 
 ![Confirm import](./img/confirmImport.png)
 
-#### Step 3 - View import result
+#### Bước 3 - Xem kết quả
 
-The result number of successfully imported records will be displayed on the screen.
+Kết quả số bản ghi đã nhập khẩu thành công sẽ được hiển thị trên màn hình.
 
 ![Import step 3](./img/importStep3.png)
 
-### Export data
+### Export
 
-Click ```Import``` in the menu to open the Export Options dialog.
+Click ```Export``` tại menu để mở hộp thoại Export Options.
 
-Click ```Download``` to download an excel file containing the exported data.
+Click ```Download``` để tải về tệp excel chứa dữ liệu xuất khẩu.
 
-Click ```Send to email``` to ask HUST PVO to send the exported file to your email.
+Click ```Send to email``` để yêu cầu HUST PVO gửi tệp xuất khẩu vào email của bạn.
 
 ![Send to email exported file](./img/emailExport.png)
 
 ### Transfer
 
-Click ```Transfer``` in the menu to open the Transfer dialog.
+Click ```Transfer``` tại menu để mở hộp thoại Transfer.
 
 ![Transfer dialog](./img/transferDialog.png)
 
-You need to select a destination dictionary. 
+Bạn cần chọn một từ điển đích.
 
-Suppose the source dictionary is A, the destination dictionary is B. The data from A including concepts, examples, concept - concept associations, example - concept associations will be copied to dictionary B. These data will be merged with the data already in B. 
+Giả sử từ điển nguồn là A, từ điển đích là B. Dữ liệu của A (bao gồm các concept, example, liên kết concept-concept, liên kết example-concept) sẽ được sao chép sang từ điển B. Những dữ liệu này sẽ được hợp nhất với dữ liệu đã có trong B.
 
-For example, A contains concept ***a1*** associated with concept ***a2***, B contains concept ***a1*** associated with concept ***b2***, B does not contain concept ***a1***. After transferring data from A to B, B contains concept ***a1*** associated with concept ***a2*** and concept ***b2***.
+Ví dụ: A chứa concept ***a1*** liên kết với concept ***a2***, B chứa concept ***a1*** liên kết với concept ***b2***, B không chứa concept ***a2***. Sau khi truyền dữ liệu từ A sang B, B chứa concept ***a1*** liên kết với concept ***a2*** và concept ***b2***.
 
-HUST PVO allows you to choose whether to delete the destination dictionary data before receiving the data transferred from the source dictionary.
+HUST PVO cho phép bạn chọn: có xóa dữ liệu từ điển đích, trước khi nhận dữ liệu của từ điển nguồn hay không.
 
 ### Delete
 
-Click ```Delete``` in the menu to open the Delete Options dialog.
+Click ```Delete``` tại menu để mở hộp thoại Delete Options.
 
 ![Delete dialog](./img/deleteDialog.png)
 
-You can choose ```Clear data``` (to empty the dictionary) or ```Delete dictionary```. Note that you **cannot delete the Current dictionary** (but you can delete its data).
+Có thể chọn ```Clear data``` (để làm trống từ điển) hoặc ```Delete dictionary```. Chú ý rằng bạn **không thể xóa Current dictionary** (nhưng có thể làm trống dữ liệu).
 
-If the dictionary has data, you'll see a warning dialog.
+Nếu từ điển có dữ liệu, bạn sẽ thấy hộp thoại cảnh báo.
 
 ![Delete confirm](./img/deleteConfirm.png)
 
-Click ```Delete``` to confirm the action, or click ```Cancel``` to cancel the action.
+Click ```Delete``` để xác nhận hành động, hoặc click ```Cancel``` hủy thao tác.
