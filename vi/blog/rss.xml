@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>HUST PVO Documentation Blog</title>
+        <link>https://hieupham2000.github.io/HUSTPVO-documentation/vi/blog</link>
+        <description>HUST PVO Documentation Blog</description>
+        <lastBuildDate>Fri, 07 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>vi</language>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://hieupham2000.github.io/HUSTPVO-documentation/vi/blog/welcome</link>
+            <guid>https://hieupham2000.github.io/HUSTPVO-documentation/vi/blog/welcome</guid>
+            <pubDate>Fri, 07 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chào mọi người!]]></description>
+            <content:encoded><![CDATA[<p><strong>Chào mọi người!</strong> </p><p>Đây là blog đầu tiên để chào mừng tất cả người dùng của HUST PVO.</p><p>Tại đây, bạn sẽ tìm thấy các blog, các mẹo mà mọi người chia sẻ về trải nghiệm của họ khi sử dụng HUST PVO nói riêng, và các phương pháp học từ vựng ngoại ngữ nói chung.</p><p><strong>Hãy bắt đầu nào!</strong></p>]]></content:encoded>
+            <category>hustpvo</category>
+            <category>hello</category>
+        </item>
+    </channel>
+</rss>

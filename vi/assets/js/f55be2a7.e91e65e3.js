@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatn_documentation=self.webpackChunkdatn_documentation||[]).push([[4092],{2458:t=>{t.exports=JSON.parse('{"label":"hello","permalink":"/HUSTPVO-documentation/vi/blog/tags/hello","allTagsPath":"/HUSTPVO-documentation/vi/blog/tags","count":1}')}}]);

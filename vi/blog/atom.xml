@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hieupham2000.github.io/HUSTPVO-documentation/vi/blog</id>
+    <title>HUST PVO Documentation Blog</title>
+    <updated>2023-07-07T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://hieupham2000.github.io/HUSTPVO-documentation/vi/blog"/>
+    <subtitle>HUST PVO Documentation Blog</subtitle>
+    <icon>https://hieupham2000.github.io/HUSTPVO-documentation/vi/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://hieupham2000.github.io/HUSTPVO-documentation/vi/blog/welcome</id>
+        <link href="https://hieupham2000.github.io/HUSTPVO-documentation/vi/blog/welcome"/>
+        <updated>2023-07-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chào mọi người!]]></summary>
+        <content type="html"><![CDATA[<p><strong>Chào mọi người!</strong> </p><p>Đây là blog đầu tiên để chào mừng tất cả người dùng của HUST PVO.</p><p>Tại đây, bạn sẽ tìm thấy các blog, các mẹo mà mọi người chia sẻ về trải nghiệm của họ khi sử dụng HUST PVO nói riêng, và các phương pháp học từ vựng ngoại ngữ nói chung.</p><p><strong>Hãy bắt đầu nào!</strong></p>]]></content>
+        <author>
+            <name>Hieu Pham</name>
+            <uri>https://github.com/hieupham2000</uri>
+        </author>
+        <category label="hustpvo" term="hustpvo"/>
+        <category label="hello" term="hello"/>
+    </entry>
+</feed>
