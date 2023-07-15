@@ -4,18 +4,18 @@ sidebar_position: 3
 
 # View all concepts
 
-This section describes the **View all concepts** feature.
+Phần này mô tả tính năng **View all concepts**.
 
-At any screen, you can click the ```View all concepts``` button to view all the concepts stored in the current dictionary. This button is located in the bottom left corner of the screen by default. You can drag and drop this button to another location.
+Tại bất kỳ màn hình nào, bạn có thể click nút ```View all concepts``` để xem tất cả concept lưu trong từ điển hiện tại. Nút này mặc định ban đầu nằm ở góc dưới cùng bên trái. Bạn có thể kéo thả nút ra đến vị trí khác trên màn hình.
 
 ![Button](./img/button.png)
 
-The concept search dialog box appears. You can click on a concept in the search results to copy, or right-click to open the context menu (same feature on the Concept screen).
+Hộp thoại tìm kiếm concept xuất hiện. Bạn có thể click vào 1 concept trong kết quả tìm kiếm để copy, hoặc click chuột phải để mở hộp thoại hành động (tương tự chức năng ở màn hình Concept).
 
 ![Dialog](./img/dialog.png)
 
-:::tip Tip
-You can use the keyboard shortcut **Alt+C** to open the dialog box and **Ctrl+Q** to close the dialog box.
+:::tip
+Bạn có thể sử dụng phím tắt **Alt+C** để mở hộp thoại và **Ctrl+Q** để đóng hộp thoại.
 :::
 
 

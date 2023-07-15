@@ -4,91 +4,91 @@ sidebar_position: 2
 
 # Concept
 
-This section describes the **Concept** screen.
+Phần này mô tả màn hình **Concept**.
 
-## Overview
+## Tổng quan
 
 ![Concept screen](./img/conceptLayout.png)
 
-1. **Add a new concept** to the current dictionary.
+1. **Thêm 1 concept mới** vào từ điển hiện tại.
 
-2. Search box and **child concept** search results.
+2. Ô tìm kiếm và kết quả tìm kiếm **concept con** (child concept).
 
-3. Search box and **parent concept** search results.
+2. Ô tìm kiếm và kết quả tìm kiếm **concept cha** (parent concept).
 
-4. Combobox to select and save the **link between child concept and parent concept**.
+4. Combobox chọn và nút Lưu **liên kết giữa concept con và concept cha**.
 
-:::tip Tip
-**Child concept** and **Parent concept** are both concepts. We call it **child** or **parent** depending on the direction of the link.
+:::tip
+**Concept con** (Child concept) hay **Concept cha** (Parent concept) đều là concept. Chúng ta gọi nó là **con** hay là **cha** phụ thuộc vào hướng của liên kết.
 :::
 
-## Add a new concept
+## Thêm concept mới
 
 ![Add concept dialog](./img/addConcept.png)
 
-Enter the form, where the Concept field is required. In addition, concepts are not allowed to overlap in a dictionary.
+Nhập vào form, chú ý rằng trường Concept là bắt buộc nhập. Ngoài ra, concept không được phép trùng nhau trong 1 từ điển.
 
-:::tip Tip
-The Concept field is **automatically focused** to help you enter data quickly.
+:::tip
+Trường Concept được tự động focus để giúp bạn nhập liệu nhanh hơn.
 :::
 
-Click ```Add & Close``` to add the concept and close the dialog box.
+Chọn ```Add & Close``` để thêm mới và đóng hộp thoại.
 
-Click ```Add``` to add the concept and refresh the dialog to continue adding. This is a useful feature that helps you quickly add a bunch of concepts.
+Chọn ```Add``` để thêm và làm mới lại form để tiếp tục thêm concept. Đây là tính năng hữu ích giúp bạn thêm nhanh hàng loạt concept.
 
-:::tip Tip
-A concept after successfully added will **automatically appear** in **the child concept search**, helping you quickly create links between concepts.
+:::tip
+Một concept sau khi thêm mới thành công sẽ **tự động xuất hiện** tại ô **tìm kiếm concept con**, giúp bạn thuận tiện tạo liên kết giữa các concept.
 :::
 
-## Searching for a concept
+## Tìm kiếm concept
 
-Enter a search keyword in the search box for **child concept** or **parent concept**. A concept is considered a match if it contains the search string.
+Nhập từ khóa vào ô tìm kiếm để tìm **concept con** hoặc **concept cha**. Một concept được coi là khớp nếu nó chứa chuỗi tìm kiếm.
 
-:::tip Tip
-The first matching concept will be **automatically selected**.
+:::tip
+Concept khớp tìm kiếm đầu tiên trong danh sách sẽ **tự động được chọn**.
 :::
 
-:::tip Tip
-HUST PVO provides an advanced configuration called **Soundex search**. By default this configuration is disabled. You can enable it at Account Settings. Details of this feature will be introduced later.
+:::tip
+HUST PVO cung cấp một cấu hình nâng cao, gọi là **Soundex search**. Mặc định, cấu hình này được tắt. Bạn có thể bật nó tại Account Setting. Chi tiết tính năng này sẽ được giới thiệu sau.
 :::
 
 ![Child concept search](./img/searchChildConcept.png)
 
-If there aren't any concepts that match, you can instantly add the search string to a new concept by clicking ``Add`` (see image below).
+Nếu không có bất kỳ concept nào khớp, bạn có thể thêm ngay chuỗi tìm kiếm thành concept mới, bằng cách nhấn ```Add``` (xem hình bên dưới).
 
 ![Add concept when search](./img/addWhenSearchConcept.png)
 
-## Establish links between concepts
+## Thiết lập liên kết giữa 2 concept
 
-After you have selected the child concept and the parent concept, you can establish the link between them. Note that the link type combobox will be disabled if the child concept or parent concept is not selected, or the child concept is the same as the parent concept.
+Sau khi bạn chọn child concept và parent concept, bạn có thể thiết lập liên kết giữa chúng. Chú ý rằng, combobox chọn loại liên kết sẽ bị vô hiệu hóa nếu child concept hoặc parent concept chưa được được chọn, hoặc là child concept trùng với parent concept.
 
-:::tip Tip
-*No link* is not actually a type of link. It is used to **remove** the link between two concepts. *No link* is the **default** relationship between two concepts.
+:::tip
+*No link* không thực sự là một loại liên kết. Nó được sử dụng để **xóa bỏ** liên kết giữa hai concept. *No link* là giá trị liên kết **mặc định** giữa 2 concept.
 :::
 
 
 ![Select concept link](./img/selectLink.png)
 
-After choosing the link type, you need to click ```Save``` to save the settings. The ```Save``` button is disabled by default and is only activated if the type of association between the two concepts changes.
+Sau khi chọn loại liên kết, bạn cần nhấn ```Save``` để lưu thiết lập. Nút ```Save``` mặc định bị vô hiệu hóa, và chỉ được kích hoạt nếu loại liên kết giữa 2 concept thay đổi.
 
-:::danger Note
+:::danger
 
-You cannot create circular links. That is, if child concept A links to parent concept B, you cannot create a link from B to A.
+Bạn không thể tạo liên kết vòng (circular link). Nghĩa là, nếu child concept A liên kết tới parent concept B, bạn không thể tạo 1 liên kết từ B đến A.
 
 :::
 
 ![Circle link](./img/circleLink.png)
 
-If you click ```Change```, the old link from A to B will be deleted and the new link from B to A will be added.
+Nếu bạn nhấn ```Change```, liên kết cũ (từ A sang B) sẽ bị xóa, liên kết mới (từ B sang A) sẽ được lưu.
 
-## Other actions
+## Thao tác khác
 
-Right-click a concept in the search list to open the context menu.
+Click chuột phải vào 1 concept trong danh sách tìm kiếm để mở hộp thoại.
 
 ![Concept context menu](./img/contextMenu.png)
 
-1. **Add example**: navigate to the example screen, and the selected concept is automatically displayed in the search box linked concept.
-2. **View tree**: navigate to the view tree, and display the tree structure of the selected concept.
+1. **Add example**: chuyển đến màn hình Example và concept được chọn sẽ tự động hiển thị ở ô tìm kiếm Linked concept.
+2. **View tree**: chuyển đến màn hình Tree và hiển thị cấu trúc cây của concept được chọn.
 3. **Edit concept**
 4. **Delete concept**
 

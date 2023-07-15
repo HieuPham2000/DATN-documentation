@@ -4,20 +4,20 @@ sidebar_position: 1
 
 # Dashboard
 
-This section describes the **Dashboard** screen.
+Phần này mô tả màn hình **Dashboard**.
 
 ![Dashboard screen](./img/dashboardLayout.png)
 
-1. Number of concepts in the current dictionary.
+1. Số lượng concept trong từ điển hiện tại.
 
-2. Number of examples in the current dictionary.
+2. Số lượng example trong từ điển hiện tại.
 
-3. The most recent top concepts added to the current dictionary.
+3. Top các concept được thêm gần đây nhất.
 
-4. the most recent top examples added to the current dictionary.
+4. Top các example được thêm gần đây nhất.
 
-:::tip Tip
-You can choose to see the top 5, 10 or 20.
+:::tip
+Bạn có thể chọn xem top 5, 10 hoặc 20.
 :::
 
 
