@@ -12,13 +12,13 @@ Click the ```Utility``` button on the Header bar to open the Utility dialog box.
 
 Currently HUST PVO provides convenient features including: translation, text-to-speech, lookup support dictionaries.
 
-### Translation and Text-to-speech
+## Translation and Text-to-speech
 
 ![Translation tab](./img/translationTab.png)
 
 Enter text in the ```Source text``` box. Click ```Translate``` to translate the text, click the ```speaker icon``` to hear the voice read the text.
 
-### Lookup dictionary
+## Lookup dictionary
 
 ![Lookup tab](./img/lookupTab.png)
 
