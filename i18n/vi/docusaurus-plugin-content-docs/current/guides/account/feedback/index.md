@@ -4,17 +4,17 @@ sidebar_position: 3
 
 # Feedback
 
-This section describes the **Feedback** feature.
+Phần này mô tả tính năng **Feedback**.
 
-Click ```Feedback``` in the user menu.
+Click ```Feedback``` tại menu người dùng.
 
 ![User menu](../img/userMenu.png)
 
-## Overview
+## Tổng quan
 
 ![Feedback dialog](./img/feedbackDialog.png)
 
-Above is the Feedback dialog box. You click on the corresponding option to send a feedback email to HUST PVO. For each feedback option, HUST PVO has provided an email template.
+Phía trên là hộp thoại Feedback. Bạn có thể click 1 loại phản hồi để gửi email đến HUST PVO. Đối với mỗi loại phản hồi, HUST PVO đã cung cấp sẵn một mẫu email tương ứng.
 
 ## Feedback for app improvement
 

@@ -4,19 +4,19 @@ sidebar_position: 1
 
 # Account Settings
 
-This section describes the **Account Settings** feature.
+Phần này mô tả tính năng **Account Settings**.
 
-Click ```Settings``` in the user menu.
+Click ```Settings``` tại menu người dùng.
 
 ![User menu](../img/userMenu.png)
 
-## Overview
+## Tổng quan
 
 ![Account settings tabs](./img/tabs.png)
 
-1. General: Change user information such as avatar, display name...
-2. Security: Change password.
-3. Setting: Other account settings.
+1. General: Đổi thông tin như avatar, tên hiển thị...
+2. Security: Đổi mật khẩu.
+3. Setting: Các cài đặt khác.
 
 ## General tab
 
@@ -30,23 +30,23 @@ Click ```Settings``` in the user menu.
 
 ![Setting tab](./img/settingTab.png)
 
-Currently there is only 1 configuration at this tab, which is *"Use Soundex Search when searching for concepts"*.
+Hiện tại chỉ có 1 cấu hình tại tab này, đó là *"Use Soundex Search when searching for concepts"*.
 
 >**Soundex** is a phonetic algorithm for indexing names by sound, as pronounced in English. The goal is for homophones to be encoded to the same representation so that they can be matched despite minor differences in spelling. ([Wikipedia](https://en.wikipedia.org/wiki/Soundex))
 
-Soundex search is an **advanced search configuration**, which helps you to search for concepts even if you don't remember the concept clearly and enter a few characters wrong in the search box.
+Soundex search trong HUST PVO là 1 **cấu hình tìm kiếm nâng cao**, giúp bạn tìm kiếm các concept ngay cả khi bạn không nhớ rõ và nhập sai một vài ký tự vào ô tìm kiếm.
 
-Here is an example of this feature. Suppose in your dictionary there is a concept of *"Buddhism"*, but when you search you remember wrongly and type *"Budhism"*.
+Đây là một ví dụ về tính năng này. Giả sử trong từ điển của bạn có concept *"Buddhism"*, nhưng khi tra cứu bạn lại nhớ nhầm và gõ là *"Budhism"*.
 
-If you uncheck the ```Use Soundex Search...``` checkbox, you will not find any concept that matches the search keyword *"Budhism"*.
+Nếu bạn không tích chọn checkbox ```Use Soundex Search...```, bạn sẽ không tìm thấy bất kỳ concept nào phù hợp với từ khóa tìm kiếm *"Budhism"*.
 
 ![Before use soundex](./img/beforeUseSoundex.png)
 
-When you check the ```Use Soundex Search...``` checkbox and search again, you will see the concept of *"Buddhism"* in the search results.
+Khi bạn tích chọn checkbox ```Use Soundex Search...``` và tìm kiếm lại, bạn sẽ thấy concept *"Buddhism"* trong kết quả tìm kiếm.
 
 ![After use soundex](./img/afterUseSonudex.png)
 
-Soundex search is **not good for all cases**. You will probably get irrelevant search results. Here is an example when you search for *"bye"* while your dictionary doesn't have *"bye"*, but has *"boy"*.
+Soundex search **không tốt trong mọi trường hợp**. Bạn có thể sẽ nhận được kết quả tìm kiếm không liên quan. Đây là một ví dụ khi bạn tìm kiếm *"bye"* trong khi từ điển của bạn không có *"bye"*, nhưng lại có *"boy"*
 
 ![Problem when use soundex](./img/problemUseSoundex.png)
 
