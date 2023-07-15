@@ -4,74 +4,74 @@ sidebar_position: 6
 
 # Tree
 
-This section describes the **Tree** screen. This feature allows you to view the **Concept tree structure**. 
+Phần này mô tả màn hình **Tree**. Tính năng này cho phép bạn xem **cấu trúc cây của concept**.
 
-## Overview
+## Tổng quan
 
-Enter or select a concept (call this the **Root concept**) in the ```Concept``` combobox. Click ```Show``` to display the corresponding Concept tree.
+Nhập hoặc chọn 1 concept (concept này được gọi là **root concept**) tại combobox ```Concept```. Click ```Show``` để hiển thị cây Concept tương ứng.
 
-A **Concept tree** consists of a root concept, child concepts, parent concepts, and linked examples.
+**Cây concept** bao gồm root concept, các child concept, các parent concept tương ứng của root concept và các example liên kết với root concept.
 
-HUST PVO provides 2 viewing modes: **simple mode** and **full mode**.
+HUST PVO cung cấp 2 chế độ xem: **chế độ đơn giản** (**Simple mode**) và **chế độ đầy đủ** (**Full mode**).
 
 ## Simple mode
 
 ![Simple mode](./img/simpleMode.png)
 
 1. Root concept.
-2. List of child concepts of root concept.
-3. List of parent concepts of root concept.
-4. List of relationship types with example.
-5. List of examples corresponding to the selected relationship.
+2. Danh sách child concepts của root concept.
+3. Danh sách parent concepts của root concept.
+4. Danh sách các mỗi quan hệ example-concept.
+5. Danh sách examples tương ứng với mối quan hệ được chọn.
 
-Click on a relationship in the list, you will see the corresponding list of examples appear. Click the pencil icon to view, edit, delete an example.
+Click một mối quan hệ trong danh sách, bạn sẽ thấy danh sách example tương ứng hiện ra. Click icon bút chì để xem, sửa, xóa example.
 
 ![Simple mode example](./img/simpleModeExample.png)
 
-:::tip Tip
-In the list of child concepts and parent concepts, you can click on any concept to select it as the **Root concept** and see the tree structure of that concept.
+:::tip
+Trong danh sách các child concept và parent concept, bạn có thể click vào bất kỳ concept nào để chọn nó làm **root concept** và xem cấu trúc cây của concept đó.
 :::
 
 ## Full mode
 
-In full mode view, the screen consists of 2 parts: directory tree structure and directory content.
+Ở chế độ xem đầy đủ, màn hình gồm 2 phần: cấu trúc cây thư mục và nội dung thư mục.
 
-### Root folder
+### Thư mục Root
 
-The image below is the screen when you are in the **Root concept** folder.
+Ảnh bên dưới là màn hình khi bạn ở thư mục **Root concept**.
 
 ![Full mode](./img/fullMode.png)
 
-1. Directory tree structure
-2. Directory content
+1. Cấu trúc cây thư mục
+2. Nội dung thư mục
 
-### Parents and Children folder
+### Thư mục Parents and Children
 
-When you choose to view the **Parents** or **Children** folder, the displayed result will be similar to the image below.
+Khi bạn chọn xem thư mục **Parents** hoặc **Children**, kết quả hiển thị sẽ tương tự như hình bên dưới.
 
 ![Parent folder](./img/fullModeParentFolder.png)
 
-:::tip TIP
-If you click on a concept in **(1)**, the concept-concept network in (2) will change accordingly (**without changing the Root concept**).
+:::tip
+Nếu bạn click 1 concept ở **(1)**, mạng liên kết concept-concept ở (2) sẽ thay đổi tương ứng mà (**không làm thay đổi Root concept**).
 :::
 
-For example, the image below is the result when you click on the *greeting* concept in the Parent folder. The greeting concept-concept network is displayed, while the Root concept remains *hello* (root concept will be marked with green in concept-concept network).
+Ví dụ: hình ảnh bên dưới là kết quả khi bạn click vào concept *greeting* trong thư mục Parents. Mạng liên kết concept-concept của *greeting* được hiển thị, trong khi root concept vẫn là *hello* (root concept sẽ được đánh dấu bằng màu xanh lá cây trong mạng liên kết concept-concept).
 
 ![Click parent in folder](./img/fullModeClickParentConceptInFolder.png)
 
-:::tip TIP
-If you click on a concept in **(2)**, the **Root concept** will be **changed accordingly** (same as in simple mode view).
+:::tip
+Nếu bạn click vào một concept trong **(2)**, **root concept** sẽ được **thay đổi tương ứng** (giống như trong chế độ xem đơn giản).
 :::
 
-### Example folder
+### Thư mục Example
 
-Click on a subfolder of the Example folder, the corresponding list of examples will appear. 
+Click 1 thư mục con của thư mục Example, danh sách các example tương ứng sẽ hiện ra.
 
-Click an example to see details. 
+Click 1 example để xem chi tiết.
 
-Click the pencil icon to edit or delete the example.
+Click icon bút chì để sửa hoặc xóa example.
 
-![Example folder](./img//fullModeExampleFolder.png)
+![Example folder](./img/fullModeExampleFolder.png)
 
 
 

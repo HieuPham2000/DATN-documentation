@@ -4,78 +4,78 @@ sidebar_position: 5
 
 # Search
 
-This section describes the **Search** screen.
+Phần này mô tả màn hình **Search**.
 
-This screen has 2 tabs: **Search Example** and **Search Concept Association**. 
+Màn hình này có 2 tab: **Search Example** và **Search Concept Association**. 
 
-:::tip TIP
-The first time you access this screen, the default **Search Example** tab is opened. From next time, the last opened tab will be opened.
+:::tip
+Lần đầu tiên bạn truy cập màn hình này, tab **Search Example** mặc định sẽ được mở. Từ lần sau, tab truy cập lần cuối sẽ được mở.
 :::
 
 ## Search Example
 
-### Search Criteria
+### Tiêu chí tìm kiếm
 
 ![Search example param](./img/searchExampleParam.png)
 
-You can use 1 or more criteria to search for examples stored in the dictionary.
+Bạn có thể sử dụng 1 hoặc nhiều tiêu chí để tìm kiếm các example được lưu trữ trong từ điển.
 
-With the **Keyword** field, you can enter a few characters or keywords to find a match with the example content or the example notes.
+Với trường **Keyword**, bạn có thể nhập một vài ký tự hoặc từ khóa để tìm kết quả khớp với nội dung hoặc ghi chú của example.
 
-With combobox **Tone**, **Mode**, **Register**, **Nuance**, **Dialect**, default value is all. You can change to find examples with corresponding attribute values.
+Với combobox **Tone**, **Mode**, **Register**, **Nuance**, **Dialect**, giá trị mặc định là All (Tất cả). Bạn có thể thay đổi để tìm các ví dụ có giá trị thuộc tính tương ứng.
 
-In the **Linked concept** multiselect box, you can select one or more concepts to find examples associated with those concepts. If you leave this box blank, all examples will be searched.
+Với multiselect box **Linked concept**, bạn có thể chọn một hoặc nhiều concept, để tìm các example liên kết với các concept đó. Nếu bạn để trống ô này, tất cả các example sẽ được tìm kiếm.
 
-Checkbox ```Only search undecided examples``` helps you find **Undecided examples**. If this checkbox is checked, the ```Linked concept``` box is disabled and the linked concept values are not used for search. Otherwise, if the ```Linked concept``` box is not empty, the checkbox will be disabled (because an example that links to at least 1 concept cannot be an Undecided example). By default, the checkbox is unchecked.
+Checkbox ```Only search undecided examples``` giúp bạn tìm **Undecided examples**. Nếu checkbox này được chọn, ```Linked concept``` sẽ bị vô hiệu hóa và các giá trị linked concept sẽ không được sử dụng để tìm kiếm. Mặt khác, ```Linked concept``` có giá trị, thì checkbox sẽ bị vô hiệu hóa (vì 1 example liên kết đến ít nhất 1 concept không thể là 1 Undecided example). Theo mặc định, checkbox không được tích chọn.
 
-When you click ```Search```, the app will perform the search. If checkbox ```Save last search parameters``` is checked (by default, this checkbox is checked), the search parameters will be saved for subsequent searches.
+Click ```Search```, ứng dụng sẽ thực hiện tìm kiếm. Nếu checkbox ```Save last search parameters``` được chọn (theo mặc định, checkbox này được chọn), các tham số tìm kiếm sẽ được lưu cho các lần tìm kiếm tiếp theo.
 
-To restore the default set of search parameters, click the ```Reset``` button.
+Để khôi phục bộ tham số tìm kiếm mặc định, click nút ```Reset```.
 
-### Search Results
+### Kết quả tìm kiếm
 
-The example search results show up as a list. If the example content is too long, only the first highlighted part will be displayed (with a few words before and after).
+Kết quả tìm kiếm example hiển thị dưới dạng danh sách. Nếu nội dung example quá dài, chỉ phần hightlight đầu tiên được hiển thị (cùng với một vài từ đứng trước và đứng sau).
 
 ![Search example results](./img/searchExampleResult.png)
 
-Click an example in the list, you will see the specific information of that example in the ```Selected example``` section.
+Click 1 example trong danh sách, bạn sẽ thấy thông tin cụ thể ở phần ```Selected example```.
 
 ![Selected example](./img/selectedExample.png)
 
-:::tip TIP
-Only attribute values other than Neutral are explicitly listed.
+:::tip
+Chỉ các thuộc tính có giá trị khác Neutral mới được hiển thị cụ thể.
 :::
 
-:::tip TIP
-Hover into a concept in the ```Linked concept``` section you will see the type of established link.
+:::tip
+Di chuột qua 1 concept ở phần ```Linked concept```, bạn sẽ thấy được loại liên kết đã thiết lập giữa concept đó và example được chọn.
 :::
 
-### Edit and delete example
+### Sửa và xóa example
 
-Click the pencil icon at an example in the list of search results, the Edit and Delete example dialog box will appear.
+Click icon bút chỉ tại 1 example trong danh sách kết quả tìm kiếm, hộp thoại Edit/Delete example sẽ xuất hiện.
 
 ## Search Concept Association
 
-On this tab, you can select 1 to 10 concepts to search for concepts that link to the selected concepts.
+Tại tab này, bạn có thể chọn từ 1 đến 10 concept, để tìm kiếm các concept liên kết với các concept đã chọn.
 
-:::tip Tip
-In a real-life situation, this feature helps you to find a concept without remembering it exactly, but only remembering a few concepts related to the concept you want to find.
+:::tip
+Trong tình huống thực tế, tính năng này giúp bạn tìm 1 concept mà không nhớ chính xác nó, chỉ nhớ một số concept liên quan đến concept muốn tìm.
 :::
 
-The search results returned are a list of concepts, sorted in order of relevance. HUST PVO uses an algorithm to compute activation values on a semantically linked network. This algorithm is referenced from the research of Dr. Ho Le Vu [(Ho Le Vu, 2006, pp. 24-30)](https://ttu-ir.tdl.org/handle/2346/10813).
+Kết quả tìm kiếm trả về là một danh sách các concept, được sắp xếp theo thứ tự mức độ liên quan. HUST PVO sử dụng 1 thuật toán để tính giá trị kích hoạt trên mạng liên kết ngữ nghĩa. Thuật toán này được tham khảo từ nghiên cứu của TS. Hồ Lê Vũ [(Ho Le Vu, 2006, tr. 24-30)](https://ttu-ir.tdl.org/handle/2346/10813).
 
 ![Search concept association](./img/searchConceptAssociation.png)
 
-In addition to the list of results, HUST PVO also provides users with an intuitive view through the graph.
+Ngoài danh sách kết quả, HUST PVO còn cung cấp cho người dùng chế độ xem trực quan thông qua đồ thị.
 
 ![Concept association graph](./img/graph.png)
 
-:::tip TIP
-You can zoom out, zoom in, drag and drop the graph. You can also drag and drop nodes.
+:::tip
+Bạn có thể thu nhỏ, phóng to, kéo và thả đồ thị. Bạn cũng có thể kéo và thả các nút/đỉnh của đồ thị.
 :::
 
-:::tip TIP
-When hovering a vertex on the graph, you will see the adjacent edges and adjacent vertices highlighted. Similar when you hover any edge on the graph.
+:::tip
+Khi di chuột vào một đỉnh trên đồ thị, bạn sẽ thấy các cạnh liền kề và các đỉnh liền kề được tô sáng. Tương tự khi bạn di chuột vào một cạnh bất kỳ trên đồ thị.
 :::
 
 ![Hover graph](./img/hoverGraphNodeEdge.png)

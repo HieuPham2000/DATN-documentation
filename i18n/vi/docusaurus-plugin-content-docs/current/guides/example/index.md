@@ -43,8 +43,6 @@ Click nút ```Link```, concept sẽ xuất hiện ở **danh sách Linked concep
 
 ![List linked concept](./img/listLinkedConcept.png)
 
-To edit an established link, you can perform a concept search again or click on the corresponding concept in the list of linked concepts. Then you change the link type and click ```Link``` button to temporarily save the settings. You can change the link type to ***No link*** to remove the link.
-
 Để chỉnh sửa một liên kết đã thiết lập, bạn có thể tìm kiếm lại concept, hoặc click vào concept tương ứng trong danh sách Linked concept. Sau đó, bạn thay đổi loại liên kết, và click ```Link``` để tạm thời lưu cài đặt. Bạn có thể thay đổi loại liên kết thành ***No link*** để xóa liên kết.
 
 ## Các thuộc tính và ghi chú của example
@@ -64,8 +62,6 @@ Bạn có thể chọn tone, mode, register, nuance và dialect của example. C
 Ngoài các thuộc tính trên, bạn có thể cung cấp thêm mô tả vào trường **Notes**, như nguồn ví dụ, bản dịch,...
 
 ## Save & Reset
-
-If the ```Re-use parameters``` checkbox is checked, the parameters you have set: tone, mode, register, nuance, dialect and notes will be preserved when the form is reset. Otherwise, all parameters will be reset to default.
 
 Trước khi lưu, bạn có thể chọn chọn hoặc bỏ chọn checkbox ```Re-use parameters```. Sau đó click ```Save & Reset``` để thêm example.
 
