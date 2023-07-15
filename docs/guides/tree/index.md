@@ -55,7 +55,7 @@ When you choose to view the **Parents** or **Children** folder, the displayed re
 If you click on a concept in **(1)**, the concept-concept network in (2) will change accordingly (**without changing the Root concept**).
 :::
 
-For example, the image below is the result when you click on the *greeting* concept in the Parent folder. The greeting concept-concept network is displayed, while the Root concept remains *hello* (root concept will be marked with green in concept-concept network).
+For example, the image below is the result when you click on the *greeting* concept in the Parent folder. The *greeting* concept-concept network is displayed, while the Root concept remains *hello* (root concept will be marked with green in concept-concept network).
 
 ![Click parent in folder](./img/fullModeClickParentConceptInFolder.png)
 

@@ -10,7 +10,7 @@ Click the ```Current dictionary``` area to open the **My Dictionaries** screen.
 
 ![button dictionary](./img/btnDictionary1.png)
 
-If you have collapsed the sidebar, you can click the ```Dictionary``` button in the right menu bar, or click the ```Current dictionary``` area in the header bar.
+If you have collapsed the sidebar, you can click the ```Dictionary``` button in the left menu bar, or click the ```Current dictionary``` area in the header bar.
 
 ![button dictionary when collapse sidebar](./img/btnDictionary2.png)
 
