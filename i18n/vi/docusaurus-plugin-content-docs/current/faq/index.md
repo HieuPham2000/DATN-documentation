@@ -2,8 +2,8 @@
 sidebar_position: 5
 ---
 
-# Help & FAQ
+# Trợ giúp & FAQ
 
-There are currently no FAQs. We will add to this section when we see common user problems when using HUST PVO.
+Hiện tại không có câu hỏi thường gặp. Chúng tôi sẽ thêm vào phần này khi chúng tôi thấy các vấn đề người dùng thường gặp khi sử dụng HUST PVO.
 
-If you have any questions or concerns, please contact us using the contact information in the footer of the website. Or you can use the [Feedback](/docs/guides/account/feedback) feature of HUST PVO.
+Nếu bạn có bất kỳ câu hỏi hoặc thắc mắc nào, vui lòng liên hệ với chúng tôi bằng cách sử dụng thông tin liên hệ ở cuối trang web. Hoặc bạn có thể sử dụng tính năng [Feedback](/docs/guides/account/feedback) của HUST PVO.
