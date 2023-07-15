@@ -14,6 +14,14 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.buttons} style={{ marginBottom: '16px' }}>
+          <Link
+            className="button button--secondary button--lg"
+            to="https://www.hustpvo.xyz"
+            >
+            Try HUST PVO now 💪
+          </Link>
+        </div>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
