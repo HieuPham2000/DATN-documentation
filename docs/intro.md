@@ -8,12 +8,12 @@ Let's discover **HUST PVO in less than 20 minutes**.
 
 ## What is HUST PVO?
 
-**HUST PVO** is a **Personalized Vocabulary Organizer** web app. Access the application at: **[https://hustpvo.site](https://hustpvo.site)**
+**HUST PVO** is a **Personalized Vocabulary Organizer** web app. Access the application at: **[https://www.hustpvo.xyz](https://www.hustpvo.xyz)**.
 
-This software comes from **[Dr. Ho Le Vu's research](https://ttu-ir.tdl.org/handle/2346/10813)** on methods and software (named **PVO**) to support foreign language learners by **association mechanism**. 
+This software comes from [Dr. Ho Le Vu's research](https://ttu-ir.tdl.org/handle/2346/10813) on methods and software (named **PVO**) to support foreign language learners by **association mechanism**. 
 >The Personalized Vocabulary Organizer (PVO), a link-based learning system, helps L2 learners organize and recall their foreign vocabulary. PVO employs an association mechanism that lets learners build up their own lexical network by linking words semantically (Ho Le Vu, 2006)
 
-HUST PVO is developed from this idea, but is an independent product of Dr. Ho Le Vu's PVO software. HUST PVO is developed and used for learning purposes only, no source code from the original version of PVO software is referenced.
+HUST PVO is developed from this idea, but is an **independent product** of Dr. Ho Le Vu's PVO software. HUST PVO is developed and used **for learning purposes only**, no source code from the original version of PVO software is referenced.
 
 ## Motivation
 

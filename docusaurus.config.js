@@ -31,7 +31,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'vi'],
   },
 
   presets: [
@@ -55,7 +55,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      metadata: [{name: 'keywords', content: 'pvo, english, vocabulary, learning vocabulary'}],
+      metadata: [{name: 'keywords', content: 'hust pvo, hust, pvo, english, vocabulary, learning vocabulary, learning method'}],
       // Replace with your project's social card
       image: 'img/social-card.png',
       navbar: {
@@ -72,10 +72,10 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   type: 'localeDropdown',
-          //   position: 'right',
-          // },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
           {
             href: 'https://github.com/HieuPham2000/HUSTPVO-documentation',
             label: 'GitHub',
