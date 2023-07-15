@@ -1,48 +1,77 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # Tree
 
-This section introduces **the core concepts and features** that HUST PVO provides.
+This section describes the **Tree** screen. This feature allows you to view the **Concept tree structure**. 
 
-## Core concepts
+## Overview
 
-There are 3 core concepts of HUST PVO: **Concept**, **Example** and **Dictionary**.
+Enter or select a concept (call this the **Root concept**) in the ```Concept``` combobox. Click ```Show``` to display the corresponding Concept tree.
 
-1. **Concept** here is a word, a phrase or a group of words, used to represent a certain meaning. For example, a single word like *free*, *freedom*, *hero*,... a phrase like *look after*,... a group of words like *reason-cause*,...
+A **Concept tree** consists of a root concept, child concepts, parent concepts, and linked examples.
 
-2. **Example** here is a phrase, a sentence or a paragraph describing how to use vocabulary with a specific meaning. **Example** will have corresponding ***tone***, ***mode***, ***register***, ***nuance*** and ***dialect*** properties to determine the context to use. For example, *shake a leg* is an **example** where the tone is *informal*, nuance is *old-fashioned*, and the mode is *spoken*.
+HUST PVO provides 2 viewing modes: **simple mode** and **full mode**.
 
-3. **Dictionary** is where **concepts** and **examples** are stored. One user account can create multiple dictionaries for different purposes. For example, user A creates 1 dictionary to store communication vocabulary and another dictionary for IELTS exam preparation.
+## Simple mode
 
-HUST PVO is a link-based learning system that helps learners learn vocabulary by association mechanism. Therefore, HUST PVO allows users to create two types of semantic association:
+![Simple mode](./img/simpleMode.png)
 
-1. Link between concept (*Association*, *Type of*. Default is *No link*).
+1. Root concept.
+2. List of child concepts of root concept.
+3. List of parent concepts of root concept.
+4. List of relationship types with example.
+5. List of examples corresponding to the selected relationship.
 
-2. Link between example and concept (*Idiom*, *Nominal*, *Agent*, *Patient*, *Action*, *Described by*, *Describing*, *Other phrase*. Default is *No link*).
+Click on a relationship in the list, you will see the corresponding list of examples appear. Click the pencil icon to view, edit, delete an example.
 
-Creating appropriate associations helps to increase vocabulary recall, increase efficiency in learning and using vocabulary.
+![Simple mode example](./img/simpleModeExample.png)
 
-An example of linking concept and results when retrieving on HUST PVO:
+:::tip Tip
+In the list of child concepts and parent concepts, you can click on any concept to select it as the **Root concept** and see the tree structure of that concept.
+:::
 
+## Full mode
 
-## Features
+In full mode view, the screen consists of 2 parts: directory tree structure and directory content.
 
-This is the main layout of HUST PVO:
+### Root folder
 
-1. Main work area
-2. Sidebar: Dashboard, Concept, Example, Search, Tree
-3. Dictionaries
-4. View all concepts in current dictionary
-5. Account settings
-6. Toggle dark mode
-7. Help & FAQs
-8. Utility: Translate, Text to speech, Look up 
+The image below is the screen when you are in the **Root concept** folder.
 
-## What's next?
+![Full mode](./img/fullMode.png)
 
-The next section will guide you through each feature of HUST PVO.
+1. Directory tree structure
+2. Directory content
+
+### Parents and Children folder
+
+When you choose to view the **Parents** or **Children** folder, the displayed result will be similar to the image below.
+
+![Parent folder](./img/fullModeParentFolder.png)
+
+:::tip TIP
+If you click on a concept in **(1)**, the concept-concept network in (2) will change accordingly (**without changing the Root concept**).
+:::
+
+For example, the image below is the result when you click on the *greeting* concept in the Parent folder. The greeting concept-concept network is displayed, while the Root concept remains *hello* (root concept will be marked with green in concept-concept network).
+
+![Click parent in folder](./img/fullModeClickParentConceptInFolder.png)
+
+:::tip TIP
+If you click on a concept in **(2)**, the **Root concept** will be **changed accordingly** (same as in simple mode view).
+:::
+
+### Example folder
+
+Click on a subfolder of the Example folder, the corresponding list of examples will appear. 
+
+Click an example to see details. 
+
+Click the pencil icon to edit or delete the example.
+
+![Example folder](./img//fullModeExampleFolder.png)
 
 
 
