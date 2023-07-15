@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        HUST is a web application with a responsive interface that can be used on a variety of devices such as laptops, tablets, smartphones...
+        HUST PVO is a Progressive Web App that can be used on a variety of devices such as laptops, tablets, smartphones...
       </>
     ),
   },
