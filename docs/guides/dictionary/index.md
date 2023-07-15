@@ -70,17 +70,9 @@ If the import is successful, all existing data of the dictionary will be deleted
 
 1. The name of the dictionary you are working with.
 2. Current step.
-3. Number of valid and invalid records.
-4. Download error file.
-5. Description table of invalid records.
-6. Go back to step 1.
-7. Go to next step.
-
-The data in the imported file will be checked by HUST PVO for validity.
-
-If there are any invalid records, HUST PVO displays a description on the table, and allows the user to download the error file.
-
-
+3. Import template download button.
+4. File upload area.
+5. Go to next step.
 
 To import, you need to **download the import template file provided by HUST PVO** and put the data in the file. Or you can use an **exported data file using HUST PVO's Export feature**.
 
@@ -108,9 +100,13 @@ Click ```Next``` to go to step 2.
 
 1. The name of the dictionary you are working with.
 2. Current step.
-3. Import template download button.
-4. File upload area.
-5. Go to next step.
+3. Number of valid and invalid records.
+4. Download error file.
+5. Description table of invalid records.
+6. Go back to step 1.
+7. Go to next step.
+
+The data in the imported file will be checked by HUST PVO for validity.
 
 If there are any invalid records, HUST PVO displays a description on the table, and allows the user to download the error file.
 
