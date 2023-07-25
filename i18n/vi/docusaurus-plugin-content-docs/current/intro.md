@@ -8,7 +8,7 @@ Cùng khám phá **HUST PVO trong ít hơn 20 phút**.
 
 ## HUST PVO là gì?
 
-**HUST PVO** là **Phần mềm tổ chức từ vựng cá nhân hóa** (**Personalized Vocabulary Organizer**) web app. Bạn có thể truy cập và sử dụng tại: **[https://www.hustpvo.xyz](https://www.hustpvo.xyz)**.
+**HUST PVO** là **Phần mềm tổ chức từ vựng cá nhân hóa** (**Personalized Vocabulary Organizer**) (web app). Bạn có thể truy cập và sử dụng tại: **[https://www.hustpvo.xyz](https://www.hustpvo.xyz)**.
 
 Phần mềm này xuất phát từ [nghiên cứu của TS. Hồ Lê Vũ](https://ttu-ir.tdl.org/handle/2346/10813) về phương pháp và phần mềm (tên **PVO**) hỗ trợ người học ngoại ngữ theo cơ chế **liên kết**.
 

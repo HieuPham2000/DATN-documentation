@@ -43,6 +43,17 @@ This is the main layout of HUST PVO:
 7. Help & FAQs
 8. Utility: Translate, Text to speech, Look up 
 
+## Getting started
+
+1. Video: Getting started - Thêm example
+
+[![Video: HUST PVO - Getting started - Thêm example](./img/video1.png)](http://www.youtube.com/watch?v=oBJ0pUL9NmQ "Video: HUST PVO - Getting started - Thêm example")
+
+
+2. Video: Getting started - Tìm kiếm concept theo liên kết
+
+[![Video: HUST PVO - Getting started - Tìm kiếm concept theo liên kết](./img/video2.png)](http://www.youtube.com/watch?v=80lolEoNEO0 "Video: HUST PVO - Getting started - Tìm kiếm concept theo liên kết")
+
 ## What's next?
 
 The next section will guide you through each feature of HUST PVO.
