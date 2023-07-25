@@ -43,6 +43,18 @@ Một ví dụ về liên kết concept và kết quả khi truy xuất trên HU
 7. Trợ giúp
 8. Tính năng tiện ích: Dịch (Translate), Chuyển văn bản thành giọng nói (Text to speech), Tra cứu nguồn tham khảo (Look up) 
 
+## Bắt đầu sử dụng
+
+1. Video: Hướng dẫn Thêm example
+
+[![Video: HUST PVO - Getting started - Thêm example](./img/video1.png)](http://www.youtube.com/watch?v=oBJ0pUL9NmQ "Video: HUST PVO - Getting started - Thêm example")
+
+
+2. Video: Hướng dẫn Tìm kiếm concept theo liên kết
+
+[![Video: HUST PVO - Getting started - Tìm kiếm concept theo liên kết](./img/video2.png)](http://www.youtube.com/watch?v=80lolEoNEO0 "Video: HUST PVO - Getting started - Tìm kiếm concept theo liên kết")
+
+
 ## Điều gì tiếp theo?
 
 Phần tiếp theo sẽ hướng dẫn bạn từng tính năng của HUST PVO.
